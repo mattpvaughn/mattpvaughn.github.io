@@ -1,0 +1,37 @@
+# Site settings
+title: Matt Vaughn
+subtitle: Portofolio
+email: mpvaughn@uw.edu
+description: A short display of my recent projects
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://127.0.0.1:4000/" # the base hostname & protocol for your site
+absolute_url: "https://127.0.0.1:4000/" # the base hostname & protocol for your site
+author: 
+street_address:
+city:
+state:
+zip_code: 
+country: 
+phone: 
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed

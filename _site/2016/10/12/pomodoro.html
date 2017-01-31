@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Matt Vaughn</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="" class="logo"><strong>Matt Vaughn</strong> <span>Portofolio</span></a>
+<!--
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+-->
+</header>
+
+<!-- Menu -->
+<!--
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		        <li><a href="">Home</a></li>
+	    	
+		
+		    
+		
+		
+		    
+		        <li><a href="/elements.html">Elements</a></li>
+		    
+		
+		    
+		        <li><a href="/generic.html">Generic</a></li>
+		    
+		
+		    
+		
+		    
+		        <li><a href="/landing.html">Landing</a></li>
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>-->
+ 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Pomodoro App Creation Process</h1>
+		</header>
+		<span class="image main"><img src="//assets/images/post_pomodoro_thumb.png" alt="" /></span>
+		<p><p><em>A quick look into my process building a simple pomodoro app.</em></p>
+
+<p><em><strong>Pomodoro Technique:</strong> “The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.” -<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Wikipedia- Pomodoro Technique</a></em></p>
+
+<h3 id="the-idea">The idea</h3>
+
+<p>I came across <a href="https://ogabrielmarques.github.io/pomodoro/index.html">a wonderful online Pomodoro Tool</a> the other day. I’ve spent the past few months dedicated to developing my app <a href="https://play.google.com/store/apps/details?id=com.uppack.iconstructorapp">Iconstructor</a>, so when I saw this I thought it would be fun to take a break for a few days and create my take on a Pomodoro-style time management app.</p>
+
+<figure style="text-align:center; margin-bottom:30px;">
+<img class="full-img" src="/assets/images/pomodoro_inspiration.gif" alt="The online pomodoro clock that inspired me to make the app" title="The online pomodoro clock that inspired me to make the app" />
+<figcaption style="font-size:1.5rem; color:#999;">The online pomodoro clock that inspired me to make the app</figcaption>
+</figure>
+
+<h3 id="the-design-process">The design process</h3>
+
+<p>What I really liked about the oGabriel’s pomodoro clock was the simplicity. There’s a million pomodoro apps online and available on Android, but every single one I have tried fills the UI with weird skeuomorphic design or clock overlays or settings. I thought I could take the essence of the online tool, the use of background colors to represent state and text to show time remaining, and turn it into my version of the app.</p>
+
+<p>My first iteration (see below) was a fairly high fidelity mockup that I put together in Inkscape. I decided to stick to the core android-style appearance, using default fonts in various weights, a simple overflow menu in the top right to access settings, and a color scheme recommended by the material design style guide. No branding, no chrome, no ads, just a timer at it’s core.</p>
+
+<figure style="text-align:center; margin-bottom:30px;">
+<img class="full-img" src="/assets/images/pomodoro_mockup_1.png" alt="My first idea for the app design" title="My first idea for the app design" />
+<figcaption style="font-size:1.5rem; color:#999;">My first idea for the app design</figcaption>
+</figure>
+
+<p>I built on the first design, making a few minor tweaks, and put together a whole array of images representing the app at its various states. All in all, it couldn’t have taken me more than an hour, but I now had something to follow going into the app building process.</p>
+
+<figure style="text-align:center; margin-bottom:30px;">
+<img class="full-img" src="/assets/images/pomodoro_mockup_states.png" alt="The state mockups for the app" title="The state mockups for the app" />
+<figcaption style="font-size:1.5rem; color:#999;">The state mockups for the app</figcaption>
+</figure>
+
+<h3 id="what-i-changed">What I changed</h3>
+
+<p>One of my big changes was that I added a settings page to the app. I think it would have been cleaner and excluding it would have probably made the app more effective (in my personal experience- the more customization an app offers, the less I use its core features), but having made apps before I instinctively try to take the One of my big changes was that I added a settings page to the app. I think it would have been cleaner and excluding it would have probably made the app more effective (in my personal experience- the more customization an app offers, the less I use its core features), but having made apps before I instinctively try to take the path which results in the least complaints.
+path which results in the least complaints.</p>
+
+<p>I also decided to change the text suggestions under the countdown depending on whether the app is in work or break mode. In my opinion this change improves clarity by a bit without adding any new complexity (on the user or developer end) or confusion.</p>
+
+<p>Another thing that I changed from the online tool is that I removed the inactive state. I thought it added an unnecessary level of complexity to the building of the app despite not adding any clear benefit.</p>
+
+<p>The last change I made came after testing it for a while. I decided to add a ripple effect to clicks to make the responses clear, because at times without it I had vague doubts that I had actually restarted the timer.</p>
+
+<h3 id="the-final-product">The final product</h3>
+
+<iframe width="500" height="281" src="http://player.vimeo.com/video/187394046" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</p>
+	</div>
+</section>
+
+</div>
+
+    <!-- Contact -->
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Matt Vaughn Portofolio</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
