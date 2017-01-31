@@ -36,4 +36,4 @@ I wouldn't have been happy just finishing with some pretty designs on my compute
 
 ### The final product ###
 
-{% include vimeo.html id="201784262" %}
+<iframe src="https://player.vimeo.com/video/201784262" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="640" height="1137" frameborder="0"></iframe>
