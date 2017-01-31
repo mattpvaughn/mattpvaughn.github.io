@@ -3,7 +3,7 @@ title: Matt Vaughn
 subtitle: Portofolio
 email: mpvaughn@uw.edu
 description: A short display of my recent projects
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mattpvaughn.github.io/" # the base hostname & protocol for your site
 author: 
 street_address:
