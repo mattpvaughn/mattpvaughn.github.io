@@ -17,17 +17,17 @@ After finishing up my Pomodoro app I decided I wanted to take on a bigger challe
 
 Since my #1 goal was to design an app with a focus on visuals, I spent a long time cycling through designs. I doodled in the margins of my notes (I wish I had kept these to show here) for a few weeks to get my ideas out. I started out with about as minimal as a design as I could: no colors, small controls, and basic typography.
 
-{% include image.html url="assets/images/post_inkplayer_mockup_1.png" baseurl=site.baseurl description="One of my first ideas- super minimal" %}
+{% include image.html url="/assets/images/post_inkplayer_mockup_1.png" baseurl=site.baseurl description="One of my first ideas- super minimal" %}
 
 I slowly evolved the idea, basing on what I had and adding parts from similar apps or mockups online. I added my own elements, however. One of the ideas that I liked the most was basing the apps UI on the color of the album art from the currently playing song. This was the app felt like it was customized just for your personal songs.
 
-{% include image.html url="assets/images/post_inkplayer_mockup_2.png" baseurl=site.baseurl description="Basing the UI color on the song's album art" %}
+{% include image.html url="/assets/images/post_inkplayer_mockup_2.png" baseurl=site.baseurl description="Basing the UI color on the song's album art" %}
 
 After I had my basic ideas down, I then had to update the UI to conform with normal Android app standards. Using a standard control scheme, a little bit of typography and some cool background images I turned the app from a basic concept to something worth working on.
 
-{% include image.html url="assets/images/post_inkplayer_mockup_3.png" baseurl=site.baseurl description="Making the app fit Android standards" %}
+{% include image.html url="/assets/images/post_inkplayer_mockup_3.png" baseurl=site.baseurl description="Making the app fit Android standards" %}
 
-{% include image.html url="assets/images/post_inkplayer_mockup_4.png" baseurl=site.baseurl description="Updating the app with a visualizer" %}
+{% include image.html url="/assets/images/post_inkplayer_mockup_4.png" baseurl=site.baseurl description="Updating the app with a visualizer" %}
 
 ### Reflection ###
 
