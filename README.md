@@ -1,6 +1,6 @@
 # A portfolio by Matt Vaughn
 
-A simple portfolio I put together with some of my personal programming projects.
+A simple portfolio I put together with some of my personal programming projects. For [mattpvaughn.github.io](https://mattpvaughn.github.io/)
 
 # Forty/Forty Jekyll Readme
 Forty - Jekyll Theme
